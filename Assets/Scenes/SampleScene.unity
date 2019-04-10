@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 332697969}
   - component: {fileID: 332697971}
   - component: {fileID: 332697970}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,7 +185,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 361389727
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -381,6 +381,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry
       objectReference: {fileID: 0}
+    - target: {fileID: 2688592028527223363, guid: 550a4caf860d00942bff93e2210d576b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 6581103744044480153, guid: 550a4caf860d00942bff93e2210d576b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -571,6 +576,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry
       objectReference: {fileID: 0}
+    - target: {fileID: 2688592028527223363, guid: 550a4caf860d00942bff93e2210d576b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 6581103744044480153, guid: 550a4caf860d00942bff93e2210d576b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -645,6 +655,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cherry
+      objectReference: {fileID: 0}
+    - target: {fileID: 2688592028527223363, guid: 550a4caf860d00942bff93e2210d576b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6581103744044480153, guid: 550a4caf860d00942bff93e2210d576b,
         type: 3}
@@ -755,7 +770,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1321050125
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8e160a2a620644cd6afef9119dad1093, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -824,7 +839,7 @@ GameObject:
   - component: {fileID: 887232600}
   - component: {fileID: 887232599}
   - component: {fileID: 887232601}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -880,7 +895,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 361389727
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -1701,7 +1716,7 @@ GameObject:
   - component: {fileID: 1064674664}
   - component: {fileID: 1064674666}
   - component: {fileID: 1064674665}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Items
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1857,6 +1872,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry
       objectReference: {fileID: 0}
+    - target: {fileID: 2688592028527223363, guid: 550a4caf860d00942bff93e2210d576b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 6581103744044480153, guid: 550a4caf860d00942bff93e2210d576b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1926,6 +1946,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry
       objectReference: {fileID: 0}
+    - target: {fileID: 2688592028527223363, guid: 550a4caf860d00942bff93e2210d576b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 6581103744044480153, guid: 550a4caf860d00942bff93e2210d576b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1994,6 +2019,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cherry
+      objectReference: {fileID: 0}
+    - target: {fileID: 2688592028527223363, guid: 550a4caf860d00942bff93e2210d576b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6581103744044480153, guid: 550a4caf860d00942bff93e2210d576b,
         type: 3}
@@ -2070,6 +2100,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry
       objectReference: {fileID: 0}
+    - target: {fileID: 2688592028527223363, guid: 550a4caf860d00942bff93e2210d576b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 6581103744044480153, guid: 550a4caf860d00942bff93e2210d576b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2139,6 +2174,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry
       objectReference: {fileID: 0}
+    - target: {fileID: 2688592028527223363, guid: 550a4caf860d00942bff93e2210d576b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 6581103744044480153, guid: 550a4caf860d00942bff93e2210d576b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2196,6 +2236,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 550a4caf860d00942bff93e2210d576b, type: 3}
+--- !u!1 &1649443356 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6635900849369649415, guid: bfbe02f23ba6eda448eb48553aff345a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4557378675644115132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &1649443358
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649443356}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.03125
 --- !u!4 &1766997628 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6581103744044480153, guid: 550a4caf860d00942bff93e2210d576b,
@@ -2230,7 +2292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2103885364}
   - component: {fileID: 2103885363}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2333,7 +2395,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6635900848662158679, guid: bfbe02f23ba6eda448eb48553aff345a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.25
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6635900849369649410, guid: bfbe02f23ba6eda448eb48553aff345a, type: 3}
+    - {fileID: 5808725105285487204, guid: bfbe02f23ba6eda448eb48553aff345a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bfbe02f23ba6eda448eb48553aff345a, type: 3}
 --- !u!4 &7145096510862080440 stripped
 Transform:

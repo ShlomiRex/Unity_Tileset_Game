@@ -54,7 +54,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6635900848662158696}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.99, z: 0}
+  m_LocalPosition: {x: 0, y: -1.002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6635900849369649412}
@@ -73,10 +73,10 @@ GameObject:
   - component: {fileID: 6635900849369649410}
   - component: {fileID: 6635900849369649411}
   - component: {fileID: 6635900849369649414}
-  - component: {fileID: 6635900849369649408}
-  - component: {fileID: 6635900849369649423}
+  - component: {fileID: 1649443357}
+  - component: {fileID: 5808725105285487204}
   m_Layer: 0
-  m_Name: Player 1
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -159,7 +159,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0455544, y: -0.2071693}
+  m_Offset: {x: 0.06684014, y: -0.12675607}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -170,7 +170,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.50692606, y: 0.60279465}
+  m_Size: {x: 0.7481659, y: 0.7636211}
   m_EdgeRadius: 0
 --- !u!50 &6635900849369649411
 Rigidbody2D:
@@ -212,7 +212,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6635900849369649408
+--- !u!114 &1649443357
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -221,32 +221,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 6635900849369649415}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eddc522ccad7506468dc8d055fae0d26, type: 3}
+  m_Script: {fileID: 11500000, guid: d2ae9a40bd2302d43af15a921416cf0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalSpeed: 60
+  facingRight: 1
+  jump: 0
+  moveForce: 365
+  maxSpeed: 5
   jumpForce: 400
-  crouchSpeed: 0.36
-  m_MovementSmoothing: 0.05
-  m_AirControl: 1
-  m_WhatIsGround:
-    serializedVersion: 2
-    m_Bits: 512
-  m_GroundCheck: {fileID: 6635900848662158679}
-  m_CeilingCheck: {fileID: 6635900847794801136}
-  m_CrouchDisableCollider: {fileID: 0}
-  OnLandEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  OnCrouchEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: CharacterController2D+BoolEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!70 &6635900849369649423
-CapsuleCollider2D:
+  groundCheck: {fileID: 6635900848662158679}
+--- !u!58 &5808725105285487204
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -258,6 +243,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.007280588, y: -0.7250477}
-  m_Size: {x: 0.52779436, y: 0.52779436}
-  m_Direction: 0
+  m_Offset: {x: 0.06, y: -0.49}
+  serializedVersion: 2
+  m_Radius: 0.5061995
